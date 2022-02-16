@@ -1,0 +1,68 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #031321;
+    font-family: consolas;
+}
+a
+{
+
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    margin-top: 500px;
+    margin-left: 110px;
+}
+a:hover
+{
+    color: #255784;
+    background: #2196f3;
+    box-shadow:
+    .1vw 0vw .25vw #2196f3, .2vw 0vw .25vw #2196f3, .4vw 0vw .25vw #2196f3, 
+    
+    .1vw 0vw   0vw #0b7ad1, .2vw 0vw   0vw #0b7ad1, .4vw 0vw   0vw #0b7ad1,
+    .1vw 0vw  .1vw #0b7ad1, .2vw 0vw  .1vw #0b7ad1, .4vw 0vw  .1vw #0b7ad1,
+    .1vw 0vw   2vw #0b7ad1, .2vw 0vw   2vw #0b7ad1, .4vw 0vw   2vw #0b7ad1, 
+    
+    .1vw 0vw   1vw #0962a7, .2vw 0vw   1vw #0962a7, .4vw 0vw   5vw #0962a7, 
+    .1vw 0vw   5vw #0962a7, .2vw 0vw  20vw #0962a7, .4vw 0vw  10vw #0962a7,
+    .1vw 0vw  10vw #0962a7, .2vw 0vw  30vw #0962a7, .4vw 0vw  10vw #0962a7; 
+    transition: 0.3s;
+
+}
+
+
+
+@font-face {
+    font-family: Neon;
+    src: url(../Ashery.otf);
+}
+.neon_text {
+    font-family: Neon;
+    font-size: 8em;
+    color: #2196f3;
+    text-shadow: 
+    .1vw 0vw .25vw #2196f3, .2vw 0vw .25vw #2196f3, .4vw 0vw .25vw #2196f3, 
+    
+    .1vw 0vw   0vw #0b7ad1, .2vw 0vw   0vw #0b7ad1, .4vw 0vw   0vw #0b7ad1,
+    .1vw 0vw  .1vw #0b7ad1, .2vw 0vw  .1vw #0b7ad1, .4vw 0vw  .1vw #0b7ad1,
+    .1vw 0vw   2vw #0b7ad1, .2vw 0vw   2vw #0b7ad1, .4vw 0vw   2vw #0b7ad1, 
+    
+    .1vw 0vw   1vw #0962a7, .2vw 0vw   1vw #0962a7, .4vw 0vw   5vw #0962a7, 
+    .1vw 0vw   5vw #0962a7, .2vw 0vw  20vw #0962a7, .4vw 0vw  10vw #0962a7,
+    .1vw 0vw  10vw #0962a7, .2vw 0vw  30vw #0962a7, .4vw 0vw  10vw #0962a7;
+    
+    margin-left: -382px;
+}
